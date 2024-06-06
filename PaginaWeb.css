@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+}
+
+
+/*basicos*/
+header{
+    background-color: #465B75;
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-direction: left;
+    padding: 1rem;
+
+ 
+}
+
+/* header edit*/
+.Logo-Contain{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    position: absolute;
+    left: 40px;
+}
+.Logo{
+    width: 110px;
+    margin-bottom: 0.2rem;
+    position: relative;
+    left: 16px;
+    bottom: 20px;
+}
+h1{
+    color: white;
+    font-size: 1em;
+    margin: 0;
+    display: flex;
+    position: absolute;
+    bottom: 28px;
+}
+.MenuHeader{
+    display: flex;
+    justify-content: right;
+    width: 100%;
+    position: absolute;
+    top:0.5rem;
+    right: 0.1px;
+
+}
+.MenuHeader ul{
+    list-style:none;
+    display: flex;
+    gap:12px;
+}
+.MenuHeader ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 15px;
+}
